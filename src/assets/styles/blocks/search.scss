@@ -1,0 +1,35 @@
+.search {
+  position: relative;
+  margin-left: auto;
+}
+
+.search__input {
+  width: 416px;
+  border: 1px solid $color-border;
+  line-height: 21px;
+  outline: none;
+  padding: 12px 130px 13px 15px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $color-border-active;
+  }
+  &::placeholder {
+    font-size: 14px;
+    font-family: $font-family;
+    font-weight: 400;
+  }
+}
+
+input[type="text"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+  width: 0;
+  height: 0;
+}

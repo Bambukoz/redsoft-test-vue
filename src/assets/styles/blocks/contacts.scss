@@ -1,0 +1,44 @@
+.contacts {
+  display: flex;
+  min-width: 448px;
+  margin-left: auto;
+}
+
+.contacts__tel {
+  display: flex;
+  min-width: 163px;
+  align-items: center;
+
+  & img {
+    margin-right: 9px;
+  }
+}
+
+.contacts__address {
+  display: flex;
+  min-width: 235px;
+  align-items: center;
+  margin-left: auto;
+
+  & img {
+    margin-top: 1px;
+    margin-right: 11px;
+  }
+}
+
+.contacts__address-text {
+  font-style: normal;
+}
+
+.contacts__tel-link {
+  color: $secondary;
+}
+
+.contacts__tel-link:hover,
+.contacts__tel-link:focus {
+  color: $color-btn-hover;
+}
+
+.contacts__tel-link:active {
+  color: $color-btn-active;
+}

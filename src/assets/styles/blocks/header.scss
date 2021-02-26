@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid $color-border;
+  padding-top: 24px;
+  padding-bottom: 23px;
+}
+
+.header__wrapper {
+  @include page-wrapper;
+  display: flex;
+  width: ($desktop-width + ($padding-desktop * 2));
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo {
+  margin-right: 48px;
+}
